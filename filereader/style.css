@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 30px;
+}
+table{
+    border-spacing:10px;
+    
+}
+.tr{
+    display:flex ; 
+    justify-content: center; 
+}
+.dropElm{
+margin: 50px auto;  
+padding: 100px;
+display: flex;   
+justify-content: center;
+align-items: center;
+width:800px;
+height:400px;
+border-radius:18px;
+background-color:darkgrey;
+}
+.fa-x{
+    font-size: 30px;
+}
+i{
+color: white;
+cursor: pointer;
+font-size: 60px;
+}
+input{
+display: none;
+}
+.mark{
+color: red;
+}
